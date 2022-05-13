@@ -10,6 +10,7 @@ headListButton.addEventListener('click', function() {
     let input = document.createElement('input');
     input.value = headListInput.value;
     input.classList.add('body-list__input');
+    input.readOnly = true;
     li.append(input);
     
     let btn = document.createElement('button');
